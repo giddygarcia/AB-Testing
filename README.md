@@ -1,4 +1,4 @@
-# 🅰️🅱️ A/B Testing - Cookie Cats Player Retention & Fast Food Campaign Sales
+# A/B Testing - Mobile Game Player Retention & Fast Food Campaign Sales
 
 This repository contains statistical testing centered on A/B / Multivariate test results, as well as analysis and visualizations on two datasets:
 1. Cookie Cats Mobile Game
@@ -49,4 +49,4 @@ It reports **data counts** and **Sales across the weeks**; providing a quick vie
     ```git clone https://github.com/giddygarcia/ab-testing```
 
 ## 📠 Author and Contact Information
-Developed by: Christine / Giddy Garcia 
+Developed by: Christine Garcia 
