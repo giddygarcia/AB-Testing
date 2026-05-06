@@ -1,2 +1,57 @@
-# AB-testing
-A/B testing for statistically confident decision-making on two different datasets
+# A/B Testing - Mobile Game Player Retention & Fast Food Campaign Sales
+
+This repository contains statistical testing centered on A/B testing and Multivariate test results, as well as analysis and visualizations on two datasets:
+1. Cookie Cats Mobile Game
+2. Fast Food Marketing
+
+Each dataset analysis will have their individual notebooks for reading.
+
+## 🎯 **Objectives:**
+| Dataset | Question/Goal |
+|----------|----------------|
+| [Notebook 1](https://github.com/TuringCollegeSubmissions/cgarci-DS.v3.2.2.5/blob/main/mobile-game.ipynb) - Cookie Cats | For the mobile game, compare  checkpoint placement **Gate 30 vs. Gate 40**. Which has a **higher retention rate for players**? |
+| [Notebook 2](https://github.com/TuringCollegeSubmissions/cgarci-DS.v3.2.2.5/blob/main/fast-food.ipynb) - Fast Food Marketing | Between 3 types of marketing promotions, **which promotion sees higher sales of the new product?** |
+
+## 🔑 Key Findings:
+| Topic | Finding |
+|-------|------------|
+| Cookie Cats Retention | Recommended for the development team to keep the first checkpoint at **Gate 30** (Control Group). |
+| Fast Food Promotions | **Promotion 1** sees the highest median sales among the three promotions. |
+
+
+## 📊 Introductory Report (Looker Studio)
+The 2nd dataset on Fast Food Marketing can be accompanied by an introductory [Looker Studio Report](https://lookerstudio.google.com/s/pzXi02x76aM) on the data.
+
+It reports **data counts** and **Sales across the weeks**; providing a quick view of what we can expect to work with for the analysis:
+
+![Looker Studio Pie Chart](graphics/LookerStudio-Pie.png)
+
+![Looker Studio Mean Weeks Chart](graphics/LookerStudio-Mean.png)
+
+![Looker Studio Median Weeks Chart](graphics/LookerStudio-Median.png)
+
+## 📦 Libraries used:
+* pandas
+* numpy
+* matplotlib
+* seaborn
+* plotly
+* scipy.stats (chisquare, kruskal)
+* scikit-posthocs 
+
+### 🗃️ Original Datasets from Kaggle
+1. [Mobile Games A/B Testing - Cookie Cats](https://www.kaggle.com/datasets/mursideyarkin/mobile-games-ab-testing-cookie-cats)
+2. [Fast Food Marketing Campaign A\B Test](https://www.kaggle.com/datasets/chebotinaa/fast-food-marketing-campaign-ab-test)
+
+### 🔎 Viewing / Installation:
+* *Viewing Option:* Simply view the notebook files "mobile-game.ipynb" or "fast-food.ipynb"
+* *Full Installation Option:* To develop on the notebooks firsthand, clone this repo\
+    ```git clone https://github.com/giddygarcia/AB-testing```
+
+## ✉️ Author and Contact Information
+Developed by: Christine Garcia 
+
+Have questions? Feel free to:
+* email me at cavgarcia22@gmail.com 
+* connect on [LinkedIn](www.linkedin.com/in/cavgarcia) 
+* or [view more projects](https://github.com/giddygarcia) that I enjoyed making
